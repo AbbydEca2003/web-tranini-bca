@@ -1,0 +1,50 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+h1{
+    color: blueviolet;
+    font-size: 100px;
+}
+.csit{
+    color: blue;
+}
+#eng{
+    color: blueviolet;
+}
+h1:hover{
+    color: black;
+    transition: 1s ease-in-out;
+}
+.message{
+    background-color: orange;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.success{
+    background-color: green;
+    text-transform: uppercase;
+}
+
+
+.error{
+    background-color: brown;
+    text-transform: lowercase;
+}
+img{
+    border-radius: 20px;
+    width: 500px;
+}
+.center {
+    text-align: center
+}
+body{
+    background-image: url('https://picsum.photos/1300/990');
+    background-size: contain;
+    background-repeat: repeat-y;
+    background-position: top;
+    background-image: linear-gradient(rgb(255, 231, 231), white);
+}
