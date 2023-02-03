@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    color: white;
+    background-color: #5995da;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    width: 966px;
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    display: flex;
+    gap: 5px;
+}
+.hero-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    
+}
+.hero{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-items: center;
+
+}
