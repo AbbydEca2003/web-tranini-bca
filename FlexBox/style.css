@@ -33,3 +33,10 @@ header{
     justify-items: center;
 
 }
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+.images{
+    width: 900px;
+}
