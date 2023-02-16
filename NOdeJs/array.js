@@ -73,7 +73,7 @@ console.log(newmovies);
     let biggestHits= "Avatar"
     console.log(biggestHits.length);
 
-    biggestHit = biggestHits.split(" ");
+    biggestHit = biggestHits.split(" "); 
     console.log(biggestHits);
     
-    
+        
