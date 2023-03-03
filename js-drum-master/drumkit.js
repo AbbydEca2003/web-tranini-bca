@@ -24,5 +24,15 @@ window.addEventListener("keydown", function(e){
         this.document.querySelector(`.key[data-key="${e.keyCode}"]`).style.border='4px solid black';
         this.document.querySelector(`.key[data-key="${e.keyCode}"]`).style.transform='scale(1,1)';
         }, 300);
-        this.document.querySelector(`.key[data-key="${e.keyCode}"]`).style.border='4px solid green';   
+        this.document.querySelector(`.key[data-key="${e.keyCode}"]`).style.border='4px solid'+ getRandomColor();   
 })
+
+
+function getRandomColor() {
+    var letters = '0123456789ABCDEF'.split('');
+    var color = '#';
+    for (var i = 0; i < 6; i++ ) {
+        color += letters[Math.round(Math.random() * 15)];
+    }
+    return color; 
+}
